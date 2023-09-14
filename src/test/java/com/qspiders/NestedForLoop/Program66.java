@@ -1,0 +1,24 @@
+/* WAP to display the below pattern 
+
+ABCDE
+ABCDE
+ABCDE
+ABCDE
+ABCDE
+
+*/
+
+package com.qspiders.NestedForLoop;
+
+public class Program66 {
+	public static void main(String[] args) {
+		for (int row = 1; row <= 5; row++) {
+			char ch = 'A';
+			for (int col = 1; col <= 5; col++) {
+				System.out.print(ch);
+				ch++;
+			}
+			System.out.println();
+		}
+	}
+}
